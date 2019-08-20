@@ -1,0 +1,26 @@
+{
+  "id": "843c4855-ffcc-4d93-adad-f1e376dcc0df",
+  "name": "Customer Loyalty",
+  "publisher": "Bell & Evans",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "Customer Loyalty program by Bel & Evans",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./Resources/Logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ALProject1.com/help/",
+  "showMyCode": true,
+  "runtime": "3.2"
+}
