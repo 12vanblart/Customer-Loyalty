@@ -437,6 +437,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
+            <Top>0.82639in</Top>
+            <Left>0.6875in</Left>
             <Height>0.5in</Height>
             <Width>5in</Width>
             <Style>
@@ -445,6 +447,41 @@
               </Border>
             </Style>
           </Tablix>
+          <Textbox Name="Textbox22">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Detailed Loyalty Report</Value>
+                    <Style>
+                      <FontSize>22pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox22</rd:DefaultName>
+            <Top>0.25in</Top>
+            <Left>1.08556in</Left>
+            <Height>0.41889in</Height>
+            <Width>3.93056in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
         <Height>2in</Height>
         <Style />
@@ -596,6 +633,9 @@ End Function
         </Field>
         <Field Name="custName">
           <DataField>custName</DataField>
+        </Field>
+        <Field Name="Entry_No_SUFFIX">
+          <DataField>Entry_No_SUFFIX</DataField>
         </Field>
         <Field Name="Document_No_SUFFIX">
           <DataField>Document_No_SUFFIX</DataField>

@@ -15,6 +15,7 @@ report 50201 "Cust Loyalty Detail.SUFFIX"
             {
                 DataItemLink = "Customer No.SUFFIX" = field ("No.");
 
+                column(Entry_No_SUFFIX; "Entry No.SUFFIX") { }
                 column(Document_No_SUFFIX; "Document No.SUFFIX") { }
                 column(Posting_Date_SUFFIX; "Posting Date.SUFFIX") { }
                 column(Points_SUFFIX; "Points.SUFFIX") { }
