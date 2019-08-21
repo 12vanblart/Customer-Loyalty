@@ -1,4 +1,4 @@
-page 50200 "Loyalty Ledger Enries.SUFFIX"
+page 50200 "Loyalty Ledger Entries.SUFFIX"
 {
     PageType = List;
     ApplicationArea = All;
@@ -34,7 +34,7 @@ page 50200 "Loyalty Ledger Enries.SUFFIX"
                     ApplicationArea = All;
 
                 }
-                field("Points Earned.SUFFIX"; "Points Earned.SUFFIX")
+                field("Points.SUFFIX"; "Points.SUFFIX")
                 {
                     ApplicationArea = All;
 

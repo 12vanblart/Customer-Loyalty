@@ -36,6 +36,18 @@ table 50200 "Loyalty Ledger.SUFFIX"
         {
             DataClassification = CustomerContent;
             Caption = 'Points Earned';
+            ObsoleteState = Removed;
+        }
+        field(6; "Earned Points.SUFFIX"; Date)
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Points Earned';
+            ObsoleteState = Removed;
+        }
+        field(7; "Points.SUFFIX"; Decimal)
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Points';
         }
     }
 
