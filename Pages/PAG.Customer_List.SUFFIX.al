@@ -25,6 +25,13 @@ pageextension 50203 "Customer List.SUFFIX" extends "Customer List"
                     Report.RunModal(Report::"Cust Loyalty Detail.SUFFIX", true, false, cust);
                 end;
             }
+
+            action(XML)
+            {
+                Caption = 'Xml Test';
+                Image = "8ball";
+                RunObject = xmlport "Export Loyalty Data.SUFFIX";
+            }
         }
     }
 }

@@ -38,6 +38,12 @@ pageextension 50200 "Customer Card.SUFFIX" extends "Customer Card"
                     Report.RunModal(Report::"Cust Loyalty Detail.SUFFIX", true, false, cust);
                 end;
             }
+            action(XML)
+            {
+                Caption = 'Xml Test';
+                Image = "8ball";
+                RunObject = xmlport "Export Loyalty Data.SUFFIX";
+            }
         }
     }
 
